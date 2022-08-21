@@ -1,0 +1,36 @@
+.background {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    // justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+#footer {
+    width: 100%;
+    background-color: rgba($color: #ebebeb, $alpha: 1);
+    display: flex;
+    justify-content: center;
+    border-top:1px solid rgb(160, 160, 160);
+    position: fixed;
+    bottom: 0;
+    padding: 1rem;
+
+    a {
+        color: black;
+        text-decoration: unset;
+        display: flex;
+        align-items: center;
+        
+        i {
+            font-size: 2rem;
+        }
+
+        p {
+            margin: unset;
+            padding: 1rem;
+        }
+    }
+}
