@@ -10,16 +10,14 @@
 
 #footer {
     width: 100%;
-    background-color: rgba($color: #ebebeb, $alpha: 1);
     display: flex;
     justify-content: center;
-    border-top:1px solid rgb(160, 160, 160);
     position: fixed;
     bottom: 0;
     padding: 1rem;
 
     a {
-        color: black;
+        color: rgba($color: #ffffff, $alpha: 1.0);
         text-decoration: unset;
         display: flex;
         align-items: center;
