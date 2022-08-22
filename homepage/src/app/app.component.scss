@@ -1,0 +1,34 @@
+#navigation {
+    padding: 2rem 3rem 0rem 5rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    display: flex;
+    position: fixed;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    padding: 1rem;
+
+    a {
+        color: rgba($color: #ffffff, $alpha: 1.0);
+        text-decoration: unset;
+        display: flex;
+        align-items: center;
+        
+        i {
+            font-size: 2rem;
+        }
+
+        p {
+            margin: unset;
+            padding: 1rem;
+        }
+    }
+}
