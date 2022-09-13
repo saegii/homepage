@@ -1,0 +1,24 @@
+#footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    padding: 1rem;
+
+    a {
+        color: rgba($color: #ffffff, $alpha: 1.0);
+        text-decoration: unset;
+        display: flex;
+        align-items: center;
+        
+        i {
+            font-size: 2rem;
+        }
+
+        p {
+            margin: unset;
+            padding: 1rem;
+        }
+    }
+}
